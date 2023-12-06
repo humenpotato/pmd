@@ -52,14 +52,17 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.8",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "web-vitals": "^3.4.0"
   },
+  "homepage": "https://humenpotato.github.io/pmd",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-app-rewired build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -80,10 +83,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "latest",
+    "@babel/core": "^7.23.5",
     "@babel/plugin-proposal-private-property-in-object": "latest",
-    "@babel/plugin-syntax-flow": "latest",
-    "@babel/plugin-transform-react-jsx": "latest",
+    "@babel/plugin-syntax-flow": "^7.23.3",
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
     "@testing-library/dom": "latest",
     "@types/jquery": "^3.5.26",
     "customize-cra": "^1.0.0",
