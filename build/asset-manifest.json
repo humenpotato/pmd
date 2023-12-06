@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pmd/static/css/main.9e36c4a5.css",
+    "main.js": "/pmd/static/js/main.b713465f.js",
+    "index.html": "/pmd/index.html",
+    "main.9e36c4a5.css.map": "/pmd/static/css/main.9e36c4a5.css.map",
+    "main.b713465f.js.map": "/pmd/static/js/main.b713465f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e36c4a5.css",
+    "static/js/main.b713465f.js"
+  ]
+}

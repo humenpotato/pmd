@@ -1,0 +1,50 @@
+{
+  "name": "Mechanical & Designing",
+  "version": "0.1.0",
+  "description": "Mech & Design Files  Management",
+  "manifest_version": 3,
+  "author": "Naveenraj G",
+  "offline_enabled": false,
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "action": {
+    "browser_style": true,
+    "default_icon": "assets/icons/icon16.png",
+    "default_title": "Mechanical & Designing",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "identity",
+    "tabs",
+    "webNavigation",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "downloads"
+  ],
+  "oauth2": {
+    "client_id": "1122315056-1qg5jfoh19qfkqudk283u889dtpt862i.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "profile",
+      "email",
+      "https://www.googleapis.com/auth/drive.file",
+      "https://www.googleapis.com/auth/spreadsheets"
+    ]
+  },
+  "host_permissions": [
+    "http://*.google.com/*"
+  ],
+  "commands": {
+    "myShortcut": {
+      "suggested_key": {
+        "default": "Alt+D"
+      },
+      "description": "Mech Shortcut"
+    }
+  }
+}
